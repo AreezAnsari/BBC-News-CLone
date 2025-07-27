@@ -1,0 +1,417 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #ffffff;
+color: #222;
+}
+
+i {
+margin-left: 1.5px;
+}
+
+.box {
+margin-top: -50px;
+width: 40px;
+margin-left: 100px;
+height: 40px;
+display: flex;
+cursor: pointer;
+padding: 10px;
+background: #fff;
+border-radius: 30px;
+align-items: center;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+transition: width 1s ease;
+}
+
+.box input {
+width: 0;
+outline: none;
+border: none;
+font-weight: 500;
+background-color: white;
+color: black;
+transition: width 1s ease;
+}
+
+.box:hover {
+width: 400px;
+}
+
+.box:hover input {
+width: 360px;
+}
+
+.box a .fa {
+color: #1daf;
+font-size: 18px;
+}
+
+div {
+margin-top: 15px;
+margin-left: 15px;
+}
+
+#logo {
+list-style-type: none;
+display: inline;
+}.bbc-wrapper {
+display: flex;
+justify-content: center;
+margin-top: 20px; 
+}
+
+.bbc-list {
+display: flex;
+list-style: none;
+gap: 10px;
+padding: 0;
+margin: 0;
+}
+
+.B1, .B2, .C {
+background-color: black;
+padding: 10px 15px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+text-decoration: none;
+box-shadow: 2px 2px 5px rgb(144, 143, 143);
+transition: 0.3s;
+}
+
+/* Optional hover effects remain the same */
+.B1:hover, .B2:hover, .C:hover {
+background-color: rgb(59, 58, 58);
+}
+
+
+.hr1 {
+margin-top: 20px;
+width: 100%;
+margin-left: -35px;
+}
+
+.hr2 {
+margin-top: 40px;
+width: 100%;
+height: 20px;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -100.5px;
+}
+
+nav {
+position: relative;
+width: 775px;
+height: 40px;
+background: #222;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 2px 2px 5px rgb(144, 143, 143);
+}
+
+nav a {
+position: relative;
+display: inline-block;
+font-size: 1em;
+font-weight: 500;
+color: #fff;
+text-decoration: none;
+padding: 0 11px;
+z-index: 1;
+}
+
+nav span {
+position: absolute;
+top: 0;
+left: 0;
+width: 73px;
+height: 100%;
+background: linear-gradient(44deg, #4f1919, #ff3333);
+border-radius: 8px;
+transition: 0.4s;
+}
+
+nav a:hover {
+color: white;
+}
+
+nav a:nth-child(2):hover~span {
+left: 75px;
+width: 60px;
+color: white;
+}
+
+nav a:nth-child(3):hover~span {
+left: 138px;
+width: 60px;
+color: white;
+}
+
+nav a:nth-child(4):hover~span {
+left: 202px;
+width: 90px;
+}
+
+nav a:nth-child(5):hover~span {
+left: 293px;
+width: 90px;
+}
+
+nav a:nth-child(6):hover~span {
+left: 388px;
+width: 75px;
+}
+
+nav a:nth-child(7):hover~span {
+left: 468px;
+width: 50px;
+}
+
+nav a:nth-child(8):hover~span {
+left: 520px;
+width: 68px;
+}
+
+nav a:nth-child(9):hover~span {
+left: 590px;
+width: 60px;
+}
+
+nav a:nth-child(10):hover~span {
+left: 655px;
+width: 63px;
+}
+
+nav a:nth-child(11):hover~span {
+    left: 718px;
+    width: 57px;
+}
+
+.Menu {
+    margin-top: -37px;
+    margin-left: 20px;
+}
+
+marquee {
+    background: linear-gradient(44deg, #574949, #ff3333, #ff3333);
+    color: white;
+    transition: 2s;
+    height: 38px;
+    margin-left: -35px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container h2 {
+    color: #bb1919;
+}
+
+#logo {
+    list-style-type: none;
+    display: inline;
+}
+
+.B1 {
+    background-color: black;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 110px;
+    font-size: 22px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgb(144, 143, 143);
+}
+
+.B1:hover {
+    color: white;
+    background-color: rgb(59, 58, 58);
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.B2 {
+    background-color: black;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3px;
+    font-size: 22px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgb(144, 143, 143);
+}
+
+.B2:hover {
+    color: white;
+    background-color: rgb(59, 58, 58);
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.C {
+    background-color: black;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3px;
+    font-size: 22px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgb(144, 143, 143);
+}
+
+.C:hover {
+    color: white;
+    background-color: rgb(59, 58, 58);
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.foot {
+    list-style-type: none;
+    display: flex;
+    margin: 30px;
+    margin-left: 95px;
+    font-weight: bold;
+}
+
+.ft {
+    margin-left: 20px;
+}
+
+.ft1 {
+    text-decoration: none;
+    color: black;
+}
+
+.ft1:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.ft2 {
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.fa-x-twitter:hover {
+    color: blue;
+}
+
+.fa-youtube:hover {
+    color: rgb(255, 0, 0);
+}
+
+.fa-linkedin-in:hover {
+    color: blue;
+}
+
+.fa-square-instagram:hover {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    height: 20px;
+    border-radius: 30%;
+}
+
+.fa-tiktok:hover {
+    color: red;
+}
+
+.fa-facebook-f:hover {
+    color: #1877F2;
+}
+
+.fa-brands {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.fa-brands:hover {
+    font-size: 25px;
+    transition: 0.2s;
+    transform: translate(0px, -8px);
+    cursor: pointer;
+}
+
+.ft3 {
+    margin-left: 115px;
+    list-style-type: none;
+    background-color: rgb(230, 232, 234);
+    padding: 5px;
+}
+
+.ft5 {
+    margin-left: 140px;
+}
+
+.ft4 {
+    margin-left: 20px;
+}
+
+.ft6 {
+    color: black;
+    text-decoration: none;
+}
+
+.ft6:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.ft7>a {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    color: black;
+    list-style-type: none;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.ft7>a:hover {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    color: black;
+    list-style-type: none;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.ft7:hover {
+    color: white;
+    text-decoration: underline;
+}
